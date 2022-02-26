@@ -8,7 +8,7 @@ import datetime
 
 
 def checkInput():
-	if len(sys.argv) != 2:
+	if len(sys.argv) < 2:
 		print("NO PAGES")
 		inputfile = input("Drag PDF into this window and press ENTER >")
 		inputfile = os.path(inputfile)

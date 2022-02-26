@@ -48,7 +48,7 @@ except Exception as e:
 try:
 	for file in files:
 		os.remove(os.path.abspath(file))
-		sleep(1)
+		# sleep(1)
 except Exception as e:
 	print(e)
 	input("Press ENTER to continue")
