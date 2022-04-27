@@ -29,7 +29,8 @@ Drag and drop PDFs straight onto Script to run
         cls
         python "..\SplitPDF.py" %*
 
-4. Select both .bat files, Right click one of them and choose 'Create Shortcut'
+4. Select both .bat files, Right click one of them and choose 'Create Shortcut'  
+*Note: If you chose to have the permanent folder in C:\Program Files, you will most likely get a message explaining you can't create a shortcut here and that it will be placed on the desktop. This is fine, just remember to move them from the desktop to the SendTo folder*
 
 5. Rename the shortcuts to what you would like them to show as in the SentTo Menu.  
 I like to prefix the shortcut names with an underscore so they appear at the top (For example `_MergePDF`)
