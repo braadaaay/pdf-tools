@@ -13,7 +13,7 @@ Drag and drop PDFs straight onto Script to run
 
 ### Adding to the SendTo Menu
 
-1. Extract the scripts to a permanant folder (that is one where they won't be moved etc.)
+1. Extract the scripts to a permanant folder (e.g., C:\Program Files\pdf-tools)
 
 2. Create Merge.bat with following contents:
 
@@ -32,12 +32,12 @@ Drag and drop PDFs straight onto Script to run
 4. Select both .bat files, Right click one of them and choose 'Create Shortcut'
 
 5. Rename the shortcuts to what you would like them to show as in the SentTo Menu.  
-I normally prefix the name with an underscore so they appear at the top (For example `_MergePDF`)
+I like to prefix the shortcut names with an underscore so they appear at the top (For example `_MergePDF`)
 
-6. Move the shortcuts to `C:\Users\[USERNAME]\AppData\Roaming\Microsoft\Windows\SendTo`.  
+6. Move the shortcuts to `C:\Users\[USERNAME]\AppData\Roaming\Microsoft\Windows\SendTo`.
 You can also open the start menu or run and type `Shell:SendTo`
 
-7. Bingo. Try it out on some PDFs.
+7. Bingo. Try it out on some PDFs by right clicking and choosing Send To > _MergePDF
 
 ## Usage Notes
 When using these MergePDF, bear in mind that no matter how you select the PDFs, **the PDF you right click will be FIRST PDF in the new merged PDF!**  
