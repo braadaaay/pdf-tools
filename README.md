@@ -1,45 +1,22 @@
 # pdf-tools
 Tools to quickly modify PDF files
 
-## Dependencies
-To use these tools, you must have Python installed as well as the PyPDF2 package (which can be installed by running `pip install PyPDF2`)
-
 ## How to Use
+### Installing to the SendTo Menu
 
-There are two ways to use these scripts; the second being the easiest to use once set up, but harder to set up to begin with:
+1. Download & open the .zip from the latest release
 
-### Drag and Drop
-Drag and drop PDFs straight onto Script to run
+2. Open a file explorer window and type `Shell:SendTo` in the address bar (this will open the folder `C:\Users\[USERNAME]\AppData\Roaming\Microsoft\Windows\SendTo`)
 
-### Adding to the SendTo Menu
+3. Copy the scripts into the SendTo folder
 
-1. Extract the scripts to a permanant folder (e.g., C:\Program Files\pdf-tools)
+4. Rename the shortcuts to what you would like them to show as in the SentTo Menu. I like to prefix the shortcut names with an underscore so they appear at the top (For example `_MergePDF`)
 
-2. Create Merge.bat with following contents:
-
-        ::MergePDF.py
-        @echo off
-        cls
-        python "..\MergePDF.py" %*
-
-3. Repeat for Split.bat:
-
-        ::SplitPDF.py
-        @echo off
-        cls
-        python "..\SplitPDF.py" %*
-
-4. Select both .bat files, Right click one of them and choose 'Create Shortcut'  
-*Note: If you chose to have the permanent folder in C:\Program Files, you will most likely get a message explaining you can't create a shortcut here and that it will be placed on the desktop. This is fine, just remember to move them from the desktop to the SendTo folder*
-
-5. Rename the shortcuts to what you would like them to show as in the SentTo Menu.  
-I like to prefix the shortcut names with an underscore so they appear at the top (For example `_MergePDF`)
-
-6. Move the shortcuts to `C:\Users\[USERNAME]\AppData\Roaming\Microsoft\Windows\SendTo`.
-You can also open the start menu or run and type `Shell:SendTo`
-
-7. Bingo. Try it out on some PDFs by right clicking and choosing Send To > _MergePDF
+5. Bingo. Try it out on some PDFs by right clicking and choosing Send To > MergePDF/SplitPDF
 
 ## Usage Notes
 When using these MergePDF, bear in mind that no matter how you select the PDFs, **the PDF you right click will be FIRST PDF in the new merged PDF!**  
 This just means you need to right click whichever PDF you would like to be ordered first.
+
+## Compiling from Source
+The Windows binaries are complied using the *auto-py-to-exe python library*. Install this first with `pip install auto-py-to-exe`, then run `auto-py-to-exe` and point to one of the scripts. Make sure the 'One File' option is selected, then hit convert.
