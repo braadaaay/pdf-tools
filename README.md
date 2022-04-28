@@ -5,7 +5,7 @@ Tools to quickly modify PDF files
 ## How to Use
 ### Installing to the SendTo Menu
 
-1. Download & open the .zip from the latest release
+1. Download & open the latest .zip from the [releases](https://github.com/braadaaay/pdf-tools/releases) page
 
 2. Open a file explorer window and type `Shell:SendTo` in the address bar (this will open the folder `C:\Users\[USERNAME]\AppData\Roaming\Microsoft\Windows\SendTo`)
 
