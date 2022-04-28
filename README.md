@@ -17,7 +17,7 @@ Tools to quickly modify PDF files
 Bingo. Try it out on some PDFs by right clicking and choosing Send To > MergePDF/SplitPDF
 
 ## Usage Notes
-When using these MergePDF, bear in mind that no matter how you select the PDFs, **the PDF you right click will be FIRST PDF in the new merged PDF!**  
+When using these MergePDF, bear in mind that no matter how you select the PDFs, **the PDF you right click will be FIRST PDF in the new merged PDF!**
 In other words, you need to right click whichever PDF you would like to be ordered first.
 
 ## Compiling from Source
