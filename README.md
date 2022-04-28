@@ -1,5 +1,6 @@
 # pdf-tools
-Tools to quickly modify PDF files
+Tools to quickly modify PDF files  
+![Screenshot of scripts in send to folder](https://i.imgur.com/8jI0F7X.png)
 
 ## How to Use
 ### Installing to the SendTo Menu
